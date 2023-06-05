@@ -117,17 +117,17 @@ p.subtitle {
 
 /* Courses and techniques */
 
-.right-container {
+.right-main {
     width: 250px;
 }
 
 .right-container {
-    margin-top: 32px;
+    margin-top: 48px;
 }
 
 .course {
     border-bottom: 1px solid rgb(127, 127, 127);
-    margin-bottom: 20px;
+    margin-top: 40px;
 }
 
 .course p {
