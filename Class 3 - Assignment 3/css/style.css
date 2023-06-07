@@ -1,0 +1,174 @@
+/* Globals   */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+p {
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Utilities */
+
+.title {
+    font-weight: 700;
+}
+
+.container {
+    width: 60%;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 32px;
+}
+
+.flex-container {
+    display: flex;
+    column-gap: 40px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.btn {
+    display:inline-block;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.btn-secondary {
+    display:inline-block;
+    background-color: #69340F;
+    color: white;
+    border: none;
+    padding: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-size: small;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.flex-center {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/* Header    */
+.site-init {
+    width: 100%;
+    height: 350px;
+    background-image: url("./../assets/img/banner.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+.site-init h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.site-init p {
+    color: white;
+    text-align: center;
+}
+
+p.subtitle {
+    font-size: 20px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+
+}
+
+/* Nav */
+
+.menu {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.menu a{
+    color: white;
+    margin-left: 20px;
+
+}
+
+/* Blog */
+
+.blog {
+    border-bottom: 1px solid rgb(127, 127, 127);
+    margin-bottom: 20px;
+}
+
+.blog:last-child {
+    border-bottom: unset;
+}
+
+/* Courses and techniques */
+
+.right-container {
+    margin-top: 48px;
+    width: 200px;
+}
+
+.course {
+    border-bottom: 1px solid rgb(127, 127, 127);
+    margin-top: 40px;
+}
+
+.course p {
+    margin: 6px 6px 6px 0px;
+}
+
+.course:last-child {
+    border-bottom: unset;
+}
+
+/* Footer */
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+footer h2 {
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+}
