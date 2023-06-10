@@ -23,6 +23,7 @@ p {
 
 a {
     text-decoration: none;
+    cursor: pointer;
 }
 
 /* Utilities */
@@ -92,6 +93,13 @@ a {
     flex-direction: column;
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 
 /* Header    */
 .site-init {
@@ -131,7 +139,6 @@ p.subtitle {
 .menu a{
     color: white;
     margin-left: 20px;
-
 }
 
 /* Blog */
@@ -201,7 +208,7 @@ footer h2 {
     padding: 10px;
     width: 70%;
 
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 .form-field {
@@ -216,6 +223,59 @@ label {
 
 .input-control, textarea {
     width: 80%;
-    border: 1px solid #e1e1e1;
-    padding: 5px;
+    border: 2px solid #e1e1e1;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Courses */
+
+.cards {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 45px;
+}
+
+.card {
+    flex: 0 1 28%;
+    background-color: rgb(111, 82, 59, 0.8);
+    border-radius: 5px;
+    color: white;
+    padding: 14px;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.card img {
+    border-radius: 5px;
+    box-shadow: 0px 10px 20px -10px #352208;
+}
+
+.card h3,p {
+    text-align: left;
+    padding: 10px;
+}
+
+.card a{
+    color: black;
+    font-weight: bold;
+}
+
+.btn-card {
+    width: 80%;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
 }
